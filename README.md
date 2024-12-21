@@ -1,8 +1,29 @@
-# React + Vite
+# Todoist App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This Todoist app allows users to manage their tasks with advanced filtering functionality. Users can add, view, and filter tasks based on various criteria such as completion status and importance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Add Tasks**: Users can add tasks with a title, description, and level of importance.
+- **Task Filtering**:
+  - Hide completed tasks.
+  - Search by task title and description.
+  - Filter tasks by importance levels.
+- **Reactive Interface**: Filters are applied automatically without the need to click an "Apply" button.
+
+## Technologies Used
+
+- **React**: Library for building user interfaces.
+- **CSS**: For styling components.
+
+## Project Structure
+
+- `src/`
+  - `components/`
+    - `App.js`: Main component of the application.
+    - `TodoList.js`: Component for displaying the list of tasks.
+    - `TodoItem.js`: Component for displaying a single task.
+    - `Filters.js`: Component for filtering tasks.
+  - `index.js`: Entry point of the application.
